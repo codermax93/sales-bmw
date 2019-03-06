@@ -1,9 +1,0 @@
-@font-face{
-	font-family:'bmwTypeWebBoldAll';
-	src:url("../fonts/bmwtypewebbo_all.eot");
-	src:url("../fonts/bmwtypewebbo_all.eot?#iefix") format("embedded-opentype"),
-	url("../fonts/bmwtypewebbo_all.woff2") format("woff2"),
-	url("../fonts/bmwtypewebbo_all.woff") format("woff"),
-	url("../fonts/bmwtypewebbo_all.ttf") format("truetype"),
-	url("../fonts/bmwtypewebbo_all.svg#svgbmwTypeWebBold") format("svg");
-}
