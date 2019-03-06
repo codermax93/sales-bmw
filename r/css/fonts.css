@@ -1,0 +1,33 @@
+@font-face{
+	font-family:BMWTypeV2;
+	src:url(../fonts/bmwbob.eot);
+	src:url(../fonts/bmwbob.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/bmwbob.svg) format("svg"),
+	url(../fonts/bmwbob.woff) format("woff"),
+	url(../fonts/bmwbob.ttf) format("truetype");
+	font-style:normal;
+	font-weight:700;
+	text-rendering:optimizeLegibility;
+}
+@font-face{
+	font-family:BMWTypeV2;
+	src:url(../fonts/bmwr.eot);
+	src:url(../fonts/bmwr.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/bmwr.svg) format("svg"),
+	url(../fonts/bmwr.woff) format("woff"),
+	url(../fonts/bmwr.ttf) format("truetype");
+	font-style:normal;
+	font-weight:400;
+	text-rendering:optimizeLegibility;
+}
+@font-face{
+	font-family:BMWTypeV2;
+	src:url(../fonts/bmwl.eot);
+	src:url(../fonts/bmwl.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/bmwl.svg) format("svg"),
+	url(../fonts/bmwl.woff) format("woff"),
+	url(../fonts/bmwl.ttf) format("truetype");
+	font-style:normal;
+	font-weight:300;
+	text-rendering:optimizeLegibility;
+}
