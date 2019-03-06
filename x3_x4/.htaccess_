@@ -1,0 +1,4 @@
+ExpiresActive on
+ExpiresByType image/jpeg "access plus 1 months"
+ExpiresByType image/gif "modification plus 3 months"
+ExpiresByType text/html "now"

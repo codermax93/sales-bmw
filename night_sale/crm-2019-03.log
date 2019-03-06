@@ -1,0 +1,114 @@
+Array
+(
+    [date_time] => 01.03.2019 01:42:34
+    [post_data] => Array
+        (
+            [form_url] => /night_sale/?utm_source=yandex&utm_medium=cpc&utm_campaign=Promo_night_sale_3_series&utm_content=Campaign_41003865|Group_3702707832|Ad_7065300189|device_mobile|region_%d0%9c%d0%be%d1%81%d0%ba%d0%b2%d0%b0|placement_com.avito.android&utm_term=bmw%203
+            [date] => Ñåãîäíÿ
+            [time] => 13:00
+            [phone] => +7(925) 482-15-05
+        )
+
+    [post_data_iconv] => Array
+        (
+            [form_url] => /night_sale/?utm_source=yandex&utm_medium=cpc&utm_campaign=Promo_night_sale_3_series&utm_content=Campaign_41003865|Group_3702707832|Ad_7065300189|device_mobile|region_%d0%9c%d0%be%d1%81%d0%ba%d0%b2%d0%b0|placement_com.avito.android&utm_term=bmw%203
+            [date] => Ð¡ÐµÐ³Ð¾Ð´Ð½Ñ
+            [time] => 13:00
+            [phone] => +7(925) 482-15-05
+        )
+
+    [curl_data] => uri=%2Fnight_sale%2F%3Futm_source%3Dyandex%26utm_medium%3Dcpc%26utm_campaign%3DPromo_night_sale_3_series%26utm_content%3DCampaign_41003865%7CGroup_3702707832%7CAd_7065300189%7Cdevice_mobile%7Cregion_%25d0%259c%25d0%25be%25d1%2581%25d0%25ba%25d0%25b2%25d0%25b0%7Cplacement_com.avito.android%26utm_term%3Dbmw%25203&form=callsinoby&date=%D0%A1%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F&time=13%3A00&phone=%2B7%28925%29+482-15-05
+    [curl_result] => OK
+    [curl_error] => 
+)
+
+Array
+(
+    [date_time] => 01.03.2019 06:46:29
+    [post_data] => Array
+        (
+            [name] => Ìèåàåëÿí ñèìà  îãàíåñîâíà99
+            [phone] => +7(951) 074-72-64
+            [agree] => 1
+            [comment] => 
+            [form_url] => /night_sale/?utm_source=Google&utm_medium=cpc&utm_campaign=Promo_night_sale_@_series&utm_content=Campaign_{campaign_id}|Group_{gbid}|Ad_{ad_id}|device_{device_type}|region_{region_name}|pos_{position_type}_{position}&utm_term=&utm_source=google&utm_medium=cpc&utm_campaign=GDN_3_5_x6&utm_content=Campaign_1711771594|Group_66608573883|Ad_332794381676|device_m|region_1011937|placement_oxydrop.net&gclid=EAIaIQobChMIs9vg04Pg4AIVyY8YCh3q4w_lEAEYASAAEgKLjPD_BwE
+            [form] => vizov
+            [form_title] => Îñòàâüòå çàÿâêó ïðÿìî ñåé÷àñ
+        )
+
+    [post_data_iconv] => Array
+        (
+            [name] => ÐœÐ¸ÐµÐ°ÐµÐ»ÑÐ½ ÑÐ¸Ð¼Ð°  Ð¾Ð³Ð°Ð½ÐµÑÐ¾Ð²Ð½Ð°99
+            [phone] => +7(951) 074-72-64
+            [agree] => 1
+            [comment] => 
+            [form_url] => /night_sale/?utm_source=Google&utm_medium=cpc&utm_campaign=Promo_night_sale_@_series&utm_content=Campaign_{campaign_id}|Group_{gbid}|Ad_{ad_id}|device_{device_type}|region_{region_name}|pos_{position_type}_{position}&utm_term=&utm_source=google&utm_medium=cpc&utm_campaign=GDN_3_5_x6&utm_content=Campaign_1711771594|Group_66608573883|Ad_332794381676|device_m|region_1011937|placement_oxydrop.net&gclid=EAIaIQobChMIs9vg04Pg4AIVyY8YCh3q4w_lEAEYASAAEgKLjPD_BwE
+            [form] => vizov
+            [form_title] => ÐžÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð·Ð°ÑÐ²ÐºÑƒ Ð¿Ñ€ÑÐ¼Ð¾ ÑÐµÐ¹Ñ‡Ð°Ñ
+        )
+
+    [curl_data] => uri=%2Fnight_sale%2F%3Futm_source%3DGoogle%26utm_medium%3Dcpc%26utm_campaign%3DPromo_night_sale_%40_series%26utm_content%3DCampaign_%7Bcampaign_id%7D%7CGroup_%7Bgbid%7D%7CAd_%7Bad_id%7D%7Cdevice_%7Bdevice_type%7D%7Cregion_%7Bregion_name%7D%7Cpos_%7Bposition_type%7D_%7Bposition%7D%26utm_term%3D%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DGDN_3_5_x6%26utm_content%3DCampaign_1711771594%7CGroup_66608573883%7CAd_332794381676%7Cdevice_m%7Cregion_1011937%7Cplacement_oxydrop.net%26gclid%3DEAIaIQobChMIs9vg04Pg4AIVyY8YCh3q4w_lEAEYASAAEgKLjPD_BwE&form=vizov&form_title=%D0%9E%D1%81%D1%82%D0%B0%D0%B2%D1%8C%D1%82%D0%B5+%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83+%D0%BF%D1%80%D1%8F%D0%BC%D0%BE+%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81&name=%D0%9C%D0%B8%D0%B5%D0%B0%D0%B5%D0%BB%D1%8F%D0%BD+%D1%81%D0%B8%D0%BC%D0%B0++%D0%BE%D0%B3%D0%B0%D0%BD%D0%B5%D1%81%D0%BE%D0%B2%D0%BD%D0%B099&phone=%2B7%28951%29+074-72-64
+    [curl_result] => OK
+    [curl_error] => 
+)
+
+Array
+(
+    [date_time] => 01.03.2019 06:46:39
+    [post_data] => Array
+        (
+            [name] => Àíàñòàñèÿ
+            [phone] => +7(926) 662-24-39
+            [agree] => 1
+            [comment] => 
+            [form_url] => /night_sale/?utm_source=yandex&utm_medium=cpc&utm_campaign=Promo_night_sale_X1_series&utm_content=Campaign_41003810|Group_3702706706|Ad_7065292881|device_desktop|region_%d0%9c%d0%be%d1%81%d0%ba%d0%b2%d0%b0|pos_premium_1&utm_term=%D0%B1%D0%BC%D0%B2%20%D1%851
+            [form] => vizov
+            [form_title] => Îñòàâüòå çàÿâêó ïðÿìî ñåé÷àñ
+        )
+
+    [post_data_iconv] => Array
+        (
+            [name] => ÐÐ½Ð°ÑÑ‚Ð°ÑÐ¸Ñ
+            [phone] => +7(926) 662-24-39
+            [agree] => 1
+            [comment] => 
+            [form_url] => /night_sale/?utm_source=yandex&utm_medium=cpc&utm_campaign=Promo_night_sale_X1_series&utm_content=Campaign_41003810|Group_3702706706|Ad_7065292881|device_desktop|region_%d0%9c%d0%be%d1%81%d0%ba%d0%b2%d0%b0|pos_premium_1&utm_term=%D0%B1%D0%BC%D0%B2%20%D1%851
+            [form] => vizov
+            [form_title] => ÐžÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð·Ð°ÑÐ²ÐºÑƒ Ð¿Ñ€ÑÐ¼Ð¾ ÑÐµÐ¹Ñ‡Ð°Ñ
+        )
+
+    [curl_data] => uri=%2Fnight_sale%2F%3Futm_source%3Dyandex%26utm_medium%3Dcpc%26utm_campaign%3DPromo_night_sale_X1_series%26utm_content%3DCampaign_41003810%7CGroup_3702706706%7CAd_7065292881%7Cdevice_desktop%7Cregion_%25d0%259c%25d0%25be%25d1%2581%25d0%25ba%25d0%25b2%25d0%25b0%7Cpos_premium_1%26utm_term%3D%25D0%25B1%25D0%25BC%25D0%25B2%2520%25D1%25851&form=vizov&form_title=%D0%9E%D1%81%D1%82%D0%B0%D0%B2%D1%8C%D1%82%D0%B5+%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83+%D0%BF%D1%80%D1%8F%D0%BC%D0%BE+%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81&name=%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F&phone=%2B7%28926%29+662-24-39
+    [curl_result] => OK
+    [curl_error] => 
+)
+
+Array
+(
+    [date_time] => 01.03.2019 13:02:13
+    [post_data] => Array
+        (
+            [name] => Àêè
+            [phone] => +7(212) 225-22-11
+            [agree] => 1
+            [comment] => 
+            [form_url] => /night_sale/?utm_source=Google&utm_medium=cpc&utm_campaign=Promo_night_sale_X6_series&utm_content=Campaign_%7Bcampaign_id%7D%7CGroup_%7Bgbid%7D%7CAd_%7Bad_id%7D%7Cdevice_%7Bdevice_type%7D%7Cregion_%7Bregion_name%7D%7Cpos_%7Bposition_type%7D_%7Bposition%7D&utm_term=%2Bbmw%20%2Bx6%20%2B%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B2%20%2B%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5&gclid=EAIaIQobChMI2IeK09fg4AIVDaqWCh3OFw4FEAAYASAAEgJYWPD_BwE
+            [form] => vizov
+            [form_title] => Îñòàâüòå çàÿâêó ïðÿìî ñåé÷àñ
+        )
+
+    [post_data_iconv] => Array
+        (
+            [name] => ÐÐºÐ¸
+            [phone] => +7(212) 225-22-11
+            [agree] => 1
+            [comment] => 
+            [form_url] => /night_sale/?utm_source=Google&utm_medium=cpc&utm_campaign=Promo_night_sale_X6_series&utm_content=Campaign_%7Bcampaign_id%7D%7CGroup_%7Bgbid%7D%7CAd_%7Bad_id%7D%7Cdevice_%7Bdevice_type%7D%7Cregion_%7Bregion_name%7D%7Cpos_%7Bposition_type%7D_%7Bposition%7D&utm_term=%2Bbmw%20%2Bx6%20%2B%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B2%20%2B%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5&gclid=EAIaIQobChMI2IeK09fg4AIVDaqWCh3OFw4FEAAYASAAEgJYWPD_BwE
+            [form] => vizov
+            [form_title] => ÐžÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð·Ð°ÑÐ²ÐºÑƒ Ð¿Ñ€ÑÐ¼Ð¾ ÑÐµÐ¹Ñ‡Ð°Ñ
+        )
+
+    [curl_data] => uri=%2Fnight_sale%2F%3Futm_source%3DGoogle%26utm_medium%3Dcpc%26utm_campaign%3DPromo_night_sale_X6_series%26utm_content%3DCampaign_%257Bcampaign_id%257D%257CGroup_%257Bgbid%257D%257CAd_%257Bad_id%257D%257Cdevice_%257Bdevice_type%257D%257Cregion_%257Bregion_name%257D%257Cpos_%257Bposition_type%257D_%257Bposition%257D%26utm_term%3D%252Bbmw%2520%252Bx6%2520%252B%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B0%2520%25D0%25B2%2520%252B%25D0%25BC%25D0%25BE%25D1%2581%25D0%25BA%25D0%25B2%25D0%25B5%26gclid%3DEAIaIQobChMI2IeK09fg4AIVDaqWCh3OFw4FEAAYASAAEgJYWPD_BwE&form=vizov&form_title=%D0%9E%D1%81%D1%82%D0%B0%D0%B2%D1%8C%D1%82%D0%B5+%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83+%D0%BF%D1%80%D1%8F%D0%BC%D0%BE+%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81&name=%D0%90%D0%BA%D0%B8&phone=%2B7%28212%29+225-22-11
+    [curl_result] => OK
+    [curl_error] => 
+)
+
