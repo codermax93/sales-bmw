@@ -225,10 +225,10 @@ header('Content-Type: text/html; charset=windows-1251', true);
 
 <div class="container">
     <div class="title1_container">
-        <div class="title1">Что было в 2018, <br>останется в 2018.</div>
-        <div class="title1_comment">Успей выбрать автомобиль <br>на условиях ндс уходящего года в BMW Автопорт.</div>
+        <div class="title1">Специальные предложения <br> на автомобили в наличии.</div>
+        <div class="title1_comment">Трейд-ин бонус до 300 000 рублей.</div>
 
-        <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</span></a><br>
+        <a class="btn popup" href="#form_popup2" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</span></a><br>
         <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ЗАПИСЬ НА ТЕСТ-ДРАЙВ"><span>ЗАПИСЬ НА ТЕСТ-ДРАЙВ</span></a>
     </div>
 </div>
@@ -519,6 +519,26 @@ header('Content-Type: text/html; charset=windows-1251', true);
 </div>
 
 <div id="form_popup">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form1" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field"><input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку "Жду звонка", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit">Жду звонка</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup2">
     <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form1" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
