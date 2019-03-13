@@ -13,6 +13,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     <title>BMW AVTOPORT</title>
     <link href="./css/index.css?v=1.2" rel="stylesheet">
     <script type="text/javascript" src="https://yastatic.net/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./js/ajax-mail.js"></script>
     <script type="text/javascript" src="./js/index.js"></script>
 
     <script async defer
@@ -70,6 +71,10 @@ header('Content-Type: text/html; charset=windows-1251', true);
         <div><img src="//mc.yandex.ru/watch/9613675" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
+	
+	<!-- calltouch -->
+	<script src="https://mod.calltouch.ru/init.js?id=y61uggaf"></script>
+	<!-- /calltouch -->
 
     <!-- Google Tag Manager -->
     <script>(function(w, d, s, l, i) {
@@ -84,14 +89,14 @@ header('Content-Type: text/html; charset=windows-1251', true);
         j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-WKPPVXK');</script>
+      })(window, document, 'script', 'dataLayer', 'GTM-NR53KRV');</script>
     <!-- End Google Tag Manager -->
 </head>
 <body>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKPPVXK"
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR53KRV"
         height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -111,7 +116,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
         <div class="title1_container">
             <div class="title1">ТОЛЬКО ЭТОЙ НОЧЬЮ В АВТОПОРТ.</div>
             <div class="title1_comment mt-3">ШЕСТИЗНАЧНЫЙ АРГУМЕНТ ОТ ДИРЕКТОРА ОТДЕЛА ПРОДАЖ BMW.</div>
-            <a class="btn popup arrow" href="#form_popup" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>Забронировать условия</span></a>
+            <a class="btn popup arrow" href="#form_popup1" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>Забронировать условия</span></a>
         </div>
     </div>
 </div>
@@ -120,16 +125,16 @@ header('Content-Type: text/html; charset=windows-1251', true);
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 col-xl-3 px-0 mt-2">
-                <a href="#form_popup" class="btn btn-block mx-1 popup arrow" _title="120 новых BMW в наличии">120 новых BMW в наличии</a>
+                <a href="#form_popup2" class="btn btn-block mx-1 popup arrow" _title="120 новых BMW в наличии">120 новых BMW в наличии</a>
             </div>
             <div class="col-12 col-lg-6 col-xl-3 px-0 mt-2">
-                <a href="#form_popup" class="btn btn-block mx-1 popup arrow" _title="Бонус TRADE-IN до 300 000">Бонус TRADE-IN до 300 000.</a>
+                <a href="#form_popup3" class="btn btn-block mx-1 popup arrow" _title="Бонус TRADE-IN до 300 000">Бонус TRADE-IN до 300 000.</a>
             </div>
             <div class="col-12 col-lg-6 col-xl-3 px-0 mt-2">
-                <a href="#form_popup" class="btn btn-block mx-1 popup arrow" _title="Кредит от 7%">Кредит от 7%.</a>
+                <a href="#form_popup4" class="btn btn-block mx-1 popup arrow" _title="Кредит от 7%">Кредит от 7%.</a>
             </div>
             <div class="col-12 col-lg-6 col-xl-3 px-0 mt-2">
-                <a href="#form_popup" class="btn btn-block mx-1 popup arrow" _title="Первый взнос от 0%">Первый взнос от 0%.</a>
+                <a href="#form_popup5" class="btn btn-block mx-1 popup arrow" _title="Первый взнос от 0%">Первый взнос от 0%.</a>
             </div>
         </div>
     </div>
@@ -175,7 +180,107 @@ header('Content-Type: text/html; charset=windows-1251', true);
 </div>
 
 <div id="form_popup">
-    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form1" class="CKiForm popup_container">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form0" class="CKiForm popup_container">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field"><input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку "Жду звонка", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control  CKFormTrigger  FlashFormSubmit">Жду звонка</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup1">
+    <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form1" class="CKiForm popup_container">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field"><input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку "Жду звонка", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control  CKFormTrigger  FlashFormSubmit">Жду звонка</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup2">
+    <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form2" class="CKiForm popup_container">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field"><input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку "Жду звонка", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control  CKFormTrigger  FlashFormSubmit">Жду звонка</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup3">
+    <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form3" class="CKiForm popup_container">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field"><input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку "Жду звонка", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control  CKFormTrigger  FlashFormSubmit">Жду звонка</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup4">
+    <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form4" class="CKiForm popup_container">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field"><input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку "Жду звонка", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control  CKFormTrigger  FlashFormSubmit">Жду звонка</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup5">
+    <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form5" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
             <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">

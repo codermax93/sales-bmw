@@ -18,6 +18,8 @@ function SendMail( $e_from, $e_to, $e_subject, $e_text )
 	mail( $e_to, $e_subject, "<html>$e_text</html>", $header );
 }//end_ func
 
+echo "<pre>";print_r($_POST);echo "</pre>";
+
 $l_host   = str_replace( "www.", "", $_SERVER["HTTP_HOST"] );
 
 foreach( $_POST as $l_key=>&$l_value )
@@ -26,7 +28,9 @@ foreach( $_POST as $l_key=>&$l_value )
 }//end_ foreach
 
 
-$l_to = "form@sinoby.ru";
+$l_to =  "form@sinoby.ru";
+//$l_to = "sinobyprog@yandex.ru";
+
 
 switch( $_POST["form"] )
 {
@@ -43,7 +47,12 @@ switch( $_POST["form"] )
         $crm_do = curl_init();
         foreach( $_POST as $key => $item )
             $post[$key] = iconv("Windows-1251","UTF-8", $item);
-        $params = "uri=".urlencode($post['form_url'])."&form=".urlencode($post['form'])."&form_title=".urlencode($post['form_title'])."name=".urlencode($post['name'])."&phone=".urlencode($post['phone']);
+
+        if( $post['form'] == "form2" ) {
+            $params = "uri=".urlencode($post['form_url'])."&form=".urlencode($post['form'])."&form_title=".urlencode($post['form_title'])."&phone=".urlencode($post['phone']);
+        } else {
+            $params = "uri=".urlencode($post['form_url'])."&form=".urlencode($post['form'])."&form_title=".urlencode($post['form_title'])."&name=".urlencode($post['name'])."&phone=".urlencode($post['phone']);
+        }
         curl_setopt($crm_do, CURLOPT_URL,          "http://178.132.200.66:8076/site_request/" );
         curl_setopt($crm_do, CURLOPT_CONNECTTIMEOUT, 10);
         curl_setopt($crm_do, CURLOPT_TIMEOUT,        10);
@@ -69,9 +78,9 @@ switch( $_POST["form"] )
             'curl_result' => $result,
             'curl_error' => $err,
         );
-        @file_put_contents($_SERVER['DOCUMENT_ROOT']."/night/crm-".date("Y-m").".log", print_r($arSave, 1)."\r\n", FILE_APPEND);
+        @file_put_contents($_SERVER['DOCUMENT_ROOT']."/crm-".date("Y-m").".log", print_r($arSave, 1)."\r\n", FILE_APPEND);
 
-		break;
+        break;
 
 }//end_ switch
 

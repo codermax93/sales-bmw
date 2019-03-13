@@ -83,7 +83,7 @@ footer{background:black;color:white;text-align:center;padding:25px 0px;}
 .block_title{position:relative;padding-bottom:84px;}
 .title1_container{color:white;padding-top:51px;padding-bottom: 370px; text-transform: uppercase;}
 .title1_container .btn{width: 315px;display:inline-block;margin-bottom:11px;}
-.title1{font-size: 48px;font-weight:700;padding-bottom:10px;font-family:'bmwTypeWebBoldAll';line-height:44px;font-family: "bmwTypeWebBoldAll";}
+.title1{font-size: 48px;font-weight:700;padding-bottom:10px;font-family:'bmwTypeWebBoldAll';line-height:60px;font-family: "bmwTypeWebBoldAll";}
 .title1_comment2{color:#435967;font-size:25px;font-weight:700;padding-top:0px;padding-bottom:0px;font-family:'bmwTypeWebBoldAll';line-height:52px;}
 .title1_comment{font-size: 25px;line-height:100%;padding-bottom:15px;font-weight: 700;font-family: "bmwTypeWebBoldAll";}
 .title1_addtext{color:#435967;padding-top:53px;width:50%;text-align:right;}
