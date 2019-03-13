@@ -546,3 +546,7 @@ margin-bottom: -5px;
 }
 @media (max-width: 576px) {
 }
+
+.form_popup {
+    display: none;
+}

@@ -114,8 +114,8 @@ header('Content-Type: text/html; charset=windows-1251', true);
 <div class="section banner">
     <div class="container">
         <div class="title1_container">
-            <div class="title1">ТОЛЬКО ЭТОЙ НОЧЬЮ В АВТОПОРТ.</div>
-            <div class="title1_comment mt-3">ШЕСТИЗНАЧНЫЙ АРГУМЕНТ ОТ ДИРЕКТОРА ОТДЕЛА ПРОДАЖ BMW.</div>
+            <div class="title1">Только 19 марта в Автопорт.</div>
+            <div class="title1_comment mt-3">Ночь продаж без дилерской наценки.</div>
             <a class="btn popup arrow" href="#form_popup1" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>Забронировать условия</span></a>
         </div>
     </div>
@@ -179,7 +179,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     </div>
 </div>
 
-<div id="form_popup">
+<div id="form_popup"  class="form_popup">
     <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form0" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
@@ -199,7 +199,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     </form>
 </div>
 
-<div id="form_popup1">
+<div id="form_popup1"  class="form_popup">
     <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form1" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
@@ -219,7 +219,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     </form>
 </div>
 
-<div id="form_popup2">
+<div id="form_popup2"  class="form_popup">
     <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form2" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
@@ -239,7 +239,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     </form>
 </div>
 
-<div id="form_popup3">
+<div id="form_popup3"  class="form_popup">
     <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form3" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
@@ -259,7 +259,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     </form>
 </div>
 
-<div id="form_popup4">
+<div id="form_popup4"  class="form_popup">
     <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form4" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
@@ -279,7 +279,7 @@ header('Content-Type: text/html; charset=windows-1251', true);
     </form>
 </div>
 
-<div id="form_popup5">
+<div id="form_popup5" class="form_popup">
     <form method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" data-flash-title="Ночная заявка" name="form1" id="form5" class="CKiForm popup_container">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
