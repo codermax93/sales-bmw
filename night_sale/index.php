@@ -1,7 +1,7 @@
 <?
 header('Content-Type: text/html; charset=windows-1251', true);
 
-$date_sale = '29 Декабря';
+$date_sale = '20 Марта';
 $utm = !empty($_COOKIE['utm_medium_cpc']) ? true : false;
 $months = [
     1 => 'Января',
@@ -51,12 +51,13 @@ if ($utm) {
     <script type="text/javascript" src="./js/jquery.fancybox.js"></script>
     <script type="text/javascript" src="./js/jquery.fancybox-thumbs.js"></script>
     <script type="text/javascript" src="./js/jquery.inputmask.bundle.min.js"></script>
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script type="text/javascript" src="./js/s_slider.js"></script>
     <script async type="text/javascript" src="http://call.sinoby.ru/flashcall.js?projectid=1504104156"></script>
 
-    <script async defer
+    <!-- <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzW18A4rg2Mu3da-ooMDXixJhm1LbYaqk&callback=initMap">
-    </script>
+    </script> -->
 
     <style>.async-hide { opacity: 0 !important} </style>
     <script>(function(a, s, y, n, c, h, i, d, e) {
@@ -70,7 +71,7 @@ if ($utm) {
         }, c);
         h.timeout = c;
       })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-          {'GTM-T6FJ744': true});</script>
+          {'GTM-T5ZX7X7': true});</script>
 
     <script>
       (function(i, s, o, g, r, a, m) {
@@ -85,7 +86,7 @@ if ($utm) {
         m.parentNode.insertBefore(a, m);
       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
       ga('create', 'UA-66091738-1', 'auto');
-      ga('require', 'GTM-T6FJ744');
+      ga('require', 'GTM-T5ZX7X7');
       ga('send', 'pageview');
     </script>
 
@@ -120,36 +121,30 @@ if ($utm) {
         <div><img src="//mc.yandex.ru/watch/9613675" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
+	<!-- calltouch -->
+	<script src="https://mod.calltouch.ru/init.js?id=y61uggaf"></script>
+	<!-- /calltouch -->
+
 
     <script type="text/javascript">
       var __cs = __cs || [];
       __cs.push(['setCsAccount', 'bIX9bBoIDG2CG50LGnxXUxx8sFoq94Vg']);
     </script>
-    <script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
+    <!-- <script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script> -->
 
     <!-- Google Tag Manager -->
-    <script>(function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start':
-              new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-WKPPVXK');</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T5ZX7X7');</script>
     <!-- End Google Tag Manager -->
 
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKPPVXK"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5ZX7X7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <script>
@@ -206,7 +201,7 @@ if ($utm) {
         </ul>
 
         <div class="top_addr_block">
-            <a class="top_phone" href="tel:+74951061798">+7 (495) 106-17-98</a>
+            <a class="top_phone" href="tel:+74957274040">+7 (495) 727-40-40</a>
             <a class="popup" href="#form_popup" _comment="" _name="vizov" _title="заказать обратный звонок">заказать обратный звонок</a>
         </div>
         <a class="logo1" href="/"><img src="./img/logo1.png" /></a>
@@ -223,7 +218,7 @@ if ($utm) {
             ПРОДАЖ BMW <?= $date_sale ?> В АВТОПОРТ.</a>
         <div class="title11">
             <a class="title1_comment popup" href="#form_popup" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ">Индивидуальные условия для Вас. Звоните уже сейчас.</a>
-            <a class="btn popup arrow" href="#form_popup" _comment="" _name="vizov" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</span></a><br>
+            <a class="btn popup arrow" href="#form_popup10" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</span></a><br>
         </div>
     </div>
 </div>
@@ -235,8 +230,8 @@ if ($utm) {
             <a class="s_anchor" href="#tb_complects" data-series="BMW 1 серии">
                 <span class="title">BMW 1 серии</span>
                 <img src="./img/1-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>**</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>**</sup></span></a><br>
+                <a class="btn popup" href="#form_popup11" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup12" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>**</sup></span></a><br>
             </a>
         </li>
         <!--li>
@@ -259,48 +254,48 @@ if ($utm) {
             <a class="s_anchor" href="#tb_complects" data-series="BMW 3 серии">
                 <span class="title">BMW 3 серии</span>
                 <img src="./img/3-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>**</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>**</sup></span></a><br>
+                <a class="btn popup" href="#form_popup13" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup14" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>**</sup></span></a><br>
             </a>
         </li>
         <li id="car4ser">
             <a class="s_anchor" href="#tb_complects" data-series="BMW 4 серии">
                 <span class="title">BMW 4 серии Coupe</span>
                 <img src="./img/4-series-coupe.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>*</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>*</sup></span></a><br>
+                <a class="btn popup" href="#form_popup15" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup16" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>*</sup></span></a><br>
             </a>
         </li>
         <li id="car5ser">
             <a class="s_anchor" href="#tb_complects" data-series="BMW 5 серии">
                 <span class="title">BMW 5 серии</span>
                 <img src="./img/5-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>*</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>*</sup></span></a><br>
+                <a class="btn popup" href="#form_popup17" _comment=""  _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup18" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>*</sup></span></a><br>
             </a>
         </li>
         <li id="car6ser">
             <a class="s_anchor" href="#tb_complects" data-series="BMW 6 серии">
                 <span class="title">BMW 6 серии</span>
                 <img src="./img/6-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>*</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>*</sup></span></a><br>
+                <a class="btn popup" href="#form_popup19" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup20" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>*</sup></span></a><br>
             </a>
         </li>
         <li id="car7ser">
             <a class="s_anchor" href="#tb_complects" data-series="BMW 7 серии">
                 <span class="title">BMW 7 серии</span>
                 <img src="./img/7-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>***</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>***</sup></span></a><br>
+                <a class="btn popup" href="#form_popup21" _comment=""  _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup22" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 7,77%<sup>***</sup></span></a><br>
             </a>
         </li>
         <li id="carx1">
             <a class="s_anchor" href="#tb_complects" data-series="BMW X1">
                 <span class="title">BMW X1</span>
                 <img src="./img/x1-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>**</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>**</sup></span></a><br>
+                <a class="btn popup" href="#form_popup23" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup24" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>**</sup></span></a><br>
             </a>
         </li>
         <!--li id="carx2">
@@ -316,8 +311,8 @@ if ($utm) {
             <a class="s_anchor" href="#tb_complects" data-series="BMW X3">
                 <span class="title">BMW X3</span>
                 <img src="./img/x3-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>*</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>*</sup></span></a><br>
+                <a class="btn popup" href="#form_popup25" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup26" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>*</sup></span></a><br>
             </a>
         </li>
 
@@ -350,8 +345,8 @@ if ($utm) {
             <a class="s_anchor" href="#tb_complects" data-series="BMW X6">
                 <span class="title">BMW X6</span>
                 <img src="./img/x6-series.png" />
-                <a class="btn popup" href="#form_popup" _comment="" _name="vizov" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
-                <a class="btn white popup" href="#form_popup" _comment="" _name="vizov" _title="ОФОРМИТЬ КРЕДИТ <sup>*</sup>"><span>ОФОРМИТЬ КРЕДИТ <sup>*</sup></span></a><br>
+                <a class="btn popup" href="#form_popup27" _comment="" _title="ИНДИВИДУАЛЬНЫЙ РАСЧЕТ"><span>ИНДИВИДУАЛЬНЫЙ РАСЧЕТ</span></a><br>
+                <a class="btn white popup" href="#form_popup28" _comment="" _title="ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ"><span>ОФОРМИТЬ КРЕДИТ от 5,4%<sup>*</sup></span></a><br>
             </a>
         </li>
         <!--li id="carx7">
@@ -387,7 +382,7 @@ if ($utm) {
 <div class="container">
     <div class="contacts">
         <div><strong>АДРЕС:</strong> г. Москва, Пятницкое ш., 6-й км, д.3.</div>
-        <div><a class="phone" href="tel:+74951061798">+7 (495) 106-17-98</a></div>
+        <div><a class="phone" href="tel:+74957274040">+7 (495) 727-40-40</a></div>
     </div>
 </div>
 
@@ -399,9 +394,8 @@ if ($utm) {
     </div>
     <input type="checkbox" class="hidden" id="toggle_disclaimer">
     <div class="disclaimer p-4">
-        <p>*Кредит предоставляется «БМВ Банк» ООО. Лицензия Банка России №3482 от 10.06.2013. Условия программы кредитования «Сила характера»: первоначальный взнос — не менее 15% (0% для BMW 1 серии, BMW 3 серии, BMW X1; 25% для BMW 7 серии, BMW 8 серии, BMW Z серии, BMW Х6 и M серии) от стоимости автомобиля (не менее 10% (20% для BMW 7 серии, BMW 8 серии, BMW Z серии, BMW Х6 и M серии) при приобретении полиса КАСКО по программе «BMW Страхование»: www.bmwbank.ru/strahovanie, процентные ставки по кредиту в рублях РФ — 8,0% при сроке кредита 12 месяцев; 10,9% при сроке 13-36 месяцев; 11,5% при сроке кредита 37–60 месяцев. Размеры остаточных платежей от стоимости автомобиля: 55% (12–24 мес.), 50% (36 мес.), 40% (48 мес.), 30% (60 мес.). Минимальная сумма кредита — 200 000 рублей РФ. Максимальная сумма кредита — 8 500 000 рублей РФ. Обязательно наличие полиса КАСКО. Программа распространяется на новые автомобили BMW 1 серии, BMW 3 серии, BMW 4 серии, BMW 5 серии, BMW 6 Гран Туризмо, BMW 8 серия, BMW X1, BMW X2 , BMW X3, BMW X4, BMW X5, BMW X6, BMW 3 серии Гран Туризмо, BMW М серии (кроме М5). Программа действует с 1 января по 31 марта 2019 года. Подробная информация на сайте www.bmwbank.ru. Настоящая информация не является офертой к заключению договора.</p>
-		<p>**Кредит предоставляется «БМВ Банк» ООО. Лицензия Банка России №3482 от 10.06.2013. Условия программы кредитования «Сила характера»: 
-		первоначальный взнос — 0% от стоимости автомобиля, процентные ставки по кредиту в рублях РФ —8,0% при сроке кредита 12 месяцев; 10,9% при сроке 13-36 месяцев; 11,5% при сроке кредита 37–60 месяцев. Размеры остаточных платежей от стоимости автомобиля: 55% (12–24 мес.), 50% (36 мес.), 40% (48 мес.), 30% (60 мес.). Минимальная сумма кредита — 200 000 рублей РФ. Максимальная сумма кредита — 8 500 000 рублей РФ. Обязательно наличие полиса КАСКО. Программа распространяется на новые автомобили BMW 1 серии седан, BMW 3 серии седан и BMW X1. Программа действует с 1 января по 31 марта 2019 года. Подробная информация на сайте www.bmwbank.ru. Настоящая информация не является офертой к заключению Договора.</p>
+        <p>*Кредит предоставляется «БМВ Банк» ООО. Лицензия Банка России №3482 от 10.06.2013. Условия программы кредитования «Сила характера».</p>
+		<p>**Кредит предоставляется «БМВ Банк» ООО. Лицензия Банка России №3482 от 10.06.2013. Условия программы кредитования «Сила характера»: первоначальный взнос – не менее 65% от стоимости автомобиля, процентная ставка по кредиту в рублях РФ — 5,4% при сроке кредита 12 месяцев; первоначальный взнос — не менее 15% (0% для BMW 1 серии, BMW 3 серии, BMW X1; 25% для BMW 7 серии, BMW 8 серии, BMW Z серии, BMW Х6 и M серии) от стоимости автомобиля (не менее 10% (20% для BMW 7 серии, BMW 8 серии, BMW Z серии, BMW Х6 и M серии) при приобретении полиса КАСКО по программе «BMW Страхование»: www.bmwbank.ru/strahovanie, процентные ставки по кредиту в рублях РФ — 10,9% при сроке 13-36 месяцев; 11,5% при сроке кредита 37–60 месяцев. Размеры остаточных платежей от стоимости автомобиля: 55% (12–24 мес.), 50% (36 мес.), 40% (48 мес.), 30% (60 мес.). Минимальная сумма кредита — 200 000 рублей РФ. Максимальная сумма кредита — 8 500 000 рублей РФ. Обязательно наличие полиса КАСКО. Программа распространяется на новые автомобили BMW 1 серии, BMW 3 серии, BMW 4 серии, BMW 5 серии, BMW 6 Гран Туризмо, BMW 8 серия, BMW X1, BMW X2 , BMW X3, BMW X4, BMW X5, BMW X6, BMW 3 серии Гран Туризмо, BMW М серии (кроме М5). Программа действует с 1 марта по 31 марта 2019 года. Подробная информация на сайте www.bmwbank.ru. Настоящая информация не является офертой к заключению договора.</p>
 
 		<p>***Кредит предоставляется «БМВ Банк» ООО. Лицензия Банка России №3482 от 10.06.2013. Условия программы кредитования «Высшие ценности»: 
 		первоначальный взнос — не менее 25% от стоимости автомобиля (не менее 20% при приобретении полиса КАСКО по программе «BMW Страхование»: 
@@ -409,8 +403,404 @@ if ($utm) {
     </div>
 </div>
 
-<div id="form_popup">
-    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form1" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+<div id="form_popup10" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form10" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup11" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form11" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup12" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form12" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup13" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form13" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup14" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form14" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup15" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form15" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup16" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form16" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup17" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form17" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup18" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form18" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup19" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form19" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup20" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form20" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup21" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form21" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup22" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form22" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup23" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form23" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup24" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form24" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup25" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form25" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup26" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form26" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup27" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form27" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
+        <h2 class="form_title"></h2>
+        <div class="form-group ico_name">
+            <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">
+        </div>
+        <div class="form-group ico_phone">
+            <input type="text" name="phone" class="nacc form-control" placeholder="Ваш телефон" data-callkeeper="tel" data-flash="phone">
+        </div>
+        <label class="agree_field">
+            <input type="checkbox" name="agree" value="1" checked="checked">Нажимая на кнопку
+            "<span class="form_title">Получить предложение</span>", я даю
+            <a target="_blank" href="./soglasie.php">согласие</a> на обработку персональных данных</label>
+
+        <div class="form-group">
+            <button type="submit" class="btn form-control CKFormTrigger FlashFormSubmit form_title">Получить предложение</button>
+        </div>
+        <input type="hidden" name="comment" value="" />
+        <input type="hidden" name="form_url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+    </form>
+</div>
+
+<div id="form_popup28" class="form_popup_hidden">
+    <form action="email.php" method="POST" data-callkeeper_name="Оставьте заявку прямо сейчас" data-title="Оставьте заявку прямо сейчас" name="form1" id="form28" class="CKiForm popup_container" data-flash-title="Оставьте заявку прямо сейчас">
         <h2 class="form_title"></h2>
         <div class="form-group ico_name">
             <input type="text" name="name" class="nacc form-control" placeholder="Ваше имя" data-callkeeper="name" data-flash="name">

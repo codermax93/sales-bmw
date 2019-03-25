@@ -28,18 +28,18 @@ foreach( $_POST as $l_key=>&$l_value )
 }//end_ foreach
 
 
-$l_to = "form@sinoby.ru";
+$l_to = "sharedhare@gmail.com";
 //$l_to = "sinobyprog@yandex.ru";
 
 
 switch( $_POST["form"] )
 {
 	default:
-		if ($_POST["center"]) $e_text .= "Центр: ".$_POST["center"]."<br>";
-		if ($_POST["name"]) $e_text .= "Имя: ".$_POST["name"]."<br>";
-		if ($_POST["phone"]) $e_text .= "Телефон: ".$_POST["phone"]."<br>";
+		if ($_POST["center"]) $e_text .= "пїЅпїЅпїЅпїЅпїЅ: ".$_POST["center"]."<br>";
+		if ($_POST["name"]) $e_text .= "пїЅпїЅпїЅ: ".$_POST["name"]."<br>";
+		if ($_POST["phone"]) $e_text .= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ".$_POST["phone"]."<br>";
 		if ($_POST["email"]) $e_text .= "E-mail: ".$_POST["email"]."<br>";
-		if ($_POST["price"]) $e_text .= "Желаемая цена: ".$_POST["price"]."<br>";
+		if ($_POST["price"]) $e_text .= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ: ".$_POST["price"]."<br>";
 		if ($_POST["comment"]) $e_text .= "<br/>".$_POST["comment"]."<br>";
 		
 		SendMail( "robot@".$l_host, $l_to," - ".$_POST["form_title"], $e_text );

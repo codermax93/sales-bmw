@@ -1,100 +1,100 @@
 function initMap() {
-var uluru = {lat: 55.862423, lng: 37.345472};
-var map = new google.maps.Map(document.getElementById('map1'), {
-  zoom: 16,
-  center: uluru,
-  mapTypeControlOptions: {
-	  mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-}
-
-
-});
-var marker = new google.maps.Marker({
-  position: uluru,
-  map: map
-});
-
-var stylez = [
-    {
-      featureType: "all",
-      elementType: "all",
-      stylers: [
-        { saturation: -100 } // <-- THIS
-      ]
-    }
-];
-	 var styledMapOptions = {
-		name: "Мой стиль"
-	  };
-
-	  var jayzMapType = new google.maps.StyledMapType(stylez, styledMapOptions);
-	 
-	  map.mapTypes.set("map_style", jayzMapType);
-	  map.setMapTypeId('map_style');
-
-
-
-}
-function initYandexMap()
-{
-	ymaps.ready(function ()
-	{
-		/*if ($('html').hasClass('mobile'))
-		{
-			var _ball_bg = 'img/m.map.balloon.png';
-			var _ball_Offset = [-300,-150];
-			var _ball_Size = [600,150];
-			
-		}
-		else*/
-/*		{
-			var _ball_bg = 'img/map.balloon.png';
-			var _ball_Offset = [-10,-85];
-			var _ball_Size = [148,92];
-		}*/
-
-		var _ball_bg = 'img/map.balloon.png';
-		var _ball_Offset = [-14,-42];
-		var _ball_Size = [28,42];
-
+	var uluru = {lat: 55.862423, lng: 37.345472};
+	var map = new google.maps.Map(document.getElementById('map1'), {
+		zoom: 16,
+		center: uluru,
+		mapTypeControlOptions: {
+			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+	}
 	
-	    	var myMap1 = new ymaps.Map('map1',
+	
+	});
+	var marker = new google.maps.Marker({
+		position: uluru,
+		map: map
+	});
+	
+	var stylez = [
+			{
+				featureType: "all",
+				elementType: "all",
+				stylers: [
+					{ saturation: -100 } // <-- THIS
+				]
+			}
+	];
+		 var styledMapOptions = {
+			name: "Мой стиль"
+			};
+	
+			var jayzMapType = new google.maps.StyledMapType(stylez, styledMapOptions);
+		 
+			map.mapTypes.set("map_style", jayzMapType);
+			map.setMapTypeId('map_style');
+	
+	
+	
+	}
+	function initYandexMap()
+	{
+		ymaps.ready(function ()
 		{
-			center: [55.862489, 37.345439],
-			zoom: 11,
-			controls: ['zoomControl']
-		},
-		{
-			searchControlProvider: 'yandex#search'
-		});
-
-		//baloon 1
-	    var myPlacemark1 = new ymaps.Placemark( [55.862489, 37.345439],
-		{
-			balloonContent:" г. Москва, Пятницкое ш., 6-й км, д.3.",
-			hintContent: " г. Москва, Пятницкое ш., 6-й км, д.3."
-	        }, {
-		//	balloonLayout: "default#imageWithContent",
-		//	balloonImageHref: _ball_bg,
-		//	balloonImageOffset: _ball_Offset,
-		//	balloonImageSize: _ball_Size,
-			iconLayout: 'default#image',
-            // Своё изображение иконки метки.
-            iconImageHref: _ball_bg,
-            // Размеры метки.
-            iconImageSize: _ball_Size,
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: _ball_Offset
-		});
-		myMap1.geoObjects.add(myPlacemark1);
-		//myPlacemark1.balloon.open();
-
-
-
-
-	});//end_ ready
-}//end_ func
+			/*if ($('html').hasClass('mobile'))
+			{
+				var _ball_bg = 'img/m.map.balloon.png';
+				var _ball_Offset = [-300,-150];
+				var _ball_Size = [600,150];
+				
+			}
+			else*/
+	/*		{
+				var _ball_bg = 'img/map.balloon.png';
+				var _ball_Offset = [-10,-85];
+				var _ball_Size = [148,92];
+			}*/
+	
+			var _ball_bg = 'img/map.balloon.png';
+			var _ball_Offset = [-14,-42];
+			var _ball_Size = [28,42];
+	
+		
+					var myMap1 = new ymaps.Map('map1',
+			{
+				center: [55.862423, 37.345472],
+				zoom: 11,
+				controls: ['zoomControl']
+			},
+			{
+				searchControlProvider: 'yandex#search'
+			});
+	
+			//baloon 1
+				var myPlacemark1 = new ymaps.Placemark( [55.862423, 37.345472],
+			{
+				balloonContent:"г. Москва, Пятницкое ш., 6-й км, д.3.",
+				hintContent: "г. Москва, Пятницкое ш., 6-й км, д.3."
+						}, {
+			//	balloonLayout: "default#imageWithContent",
+			//	balloonImageHref: _ball_bg,
+			//	balloonImageOffset: _ball_Offset,
+			//	balloonImageSize: _ball_Size,
+				iconLayout: 'default#image',
+							// Своё изображение иконки метки.
+							iconImageHref: _ball_bg,
+							// Размеры метки.
+							iconImageSize: _ball_Size,
+							// Смещение левого верхнего угла иконки относительно
+							// её "ножки" (точки привязки).
+							iconImageOffset: _ball_Offset
+			});
+			myMap1.geoObjects.add(myPlacemark1);
+			//myPlacemark1.balloon.open();
+	
+	
+	
+	
+		});//end_ ready
+	}//end_ func
 
 
 function initFancy()
@@ -237,6 +237,10 @@ console.log("center"+$("input[name='center']",l_form_object).val());
 			
 			$('form').trigger('reset');
 			ga('send', 'event', 'Форма', 'Успешная отправка');
+			dataLayer.push({
+				event: l_form_object.attr('id')
+			});
+			console.log(dataLayer);
 			alert("Скорее бегите к телефону, мы уже вам звоним");
 			$.fancybox.close();
 		});
